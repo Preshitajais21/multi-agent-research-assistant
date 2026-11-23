@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Environments & secrets
+.venv/
+venv/
+env/
+ENV/
+.env
+*.env
+api-key.txt
+*api-key*
+
+# Research PDFs (third-party copyrighted content) and generated indices
+*/data/*.pdf
+*/data/*.PDF
+*/faiss_index/
+*/vector_store/
+faiss_index/
+vector_store/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
